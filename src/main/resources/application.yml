@@ -1,6 +1,10 @@
 server:
   servlet:
    context-path: /backend
+cloud:
+  aws:
+    stack:
+      auto: false
 management: 
   endpoint:
     health:
