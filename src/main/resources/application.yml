@@ -1,3 +1,7 @@
 server:
   servlet:
    context-path: /backend
+management: 
+  endpoint:
+    health:
+      enabled: true
